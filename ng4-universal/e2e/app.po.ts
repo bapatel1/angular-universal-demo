@@ -1,6 +1,6 @@
-import { browser, element, by } from 'protractor';
+import { browser, by, element } from 'protractor';
 
-export class AngularUniversalDemoPage {
+export class Ng4UniversalPage {
   navigateTo() {
     return browser.get('/');
   }
