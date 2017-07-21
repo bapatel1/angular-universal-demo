@@ -1,10 +1,10 @@
-import { AngularCliDemoPage } from './app.po';
+import { Ng4CliPage } from './app.po';
 
-describe('angular-cli-demo App', () => {
-  let page: AngularCliDemoPage;
+describe('ng4-cli App', () => {
+  let page: Ng4CliPage;
 
   beforeEach(() => {
-    page = new AngularCliDemoPage();
+    page = new Ng4CliPage();
   });
 
   it('should display welcome message', () => {
